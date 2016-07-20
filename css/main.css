@@ -1,0 +1,97 @@
+html, body {
+	height: 100%;
+}
+
+nav {
+	height: 14%;
+	background-color: #fe7e00;
+	border-bottom: #f17008;
+}
+
+nav > ul {
+	padding: 20px; 
+	float: right;
+	height: 20px;
+}
+
+nav > ul > li {
+	display: inline-block;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin: 12px 18px;
+	font-family: 'helveltica', sans-serif;
+}
+
+section {
+	height: 72%;
+	background-color: #fafafa;
+}
+
+section form {
+	text-align: right;
+	background-color: #f0f0f0;
+	padding: 5px 10px;
+	margin: 3px 30px 0 1020px;
+}
+
+section input {
+	display: inline-block;
+	border: none;
+	background-color: transparent;
+	padding: 15px;
+}
+
+section i {
+	padding right: 30px;
+}
+
+section img {
+	padding: 40px 0 0 20px;
+}
+
+section div {
+	float: left;
+	width: 49%;
+}
+
+section button {
+	padding: 20px 40px;
+	color: white;
+	border: none;
+	margin: 25px; 
+}
+
+.left {
+	background-color: #fe7e00;
+	font-size: 15px;
+}
+
+.right {
+	background-color: #7accc8;
+	font-size: 15px;
+}
+
+h1 {
+	color: #fe7e00;
+  	font-size: 40px;
+  	font-family: Helvetica, Arial, sans-serif;
+  	font-weight: 100;
+  	padding-top: 40px;
+}
+
+h1 span {
+	font-weight: bold;
+}
+
+.blue {
+	color: #7accc8;
+}
+
+footer {
+	background-color: #7accc8;
+	height: 14%;
+}
